@@ -1,21 +1,114 @@
-MIT License
+ LICENCIA PÚBLICA GENERAL DE GNU
+                       Versión 3, 29 de junio de 2007
 
-Copyright (c) 2025 Mkttns
+Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+Todos pueden copiar y distribuir copias literales de este documento de licencia, pero no se permiten modificaciones.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Preámbulo
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+La Licencia Pública General de GNU es una licencia libre y de copyleft para software y otros tipos de obras.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Las licencias para la mayoría del software son diseñadas para quitarte tu libertad de compartirlo y modificarlo. En contraste, la Licencia Pública General de GNU está pensada para garantizar tu libertad de compartir y modificar versiones libres de software --para asegurar que el software sea libre para todos sus usuarios. Esta Licencia Pública General se aplica a la mayoría del software de la Free Software Foundation y a cualquier otro programa cuyos autores la hayan comprometido a usarla. (Parte del software de la Free Software Foundation está cubierto por la Licencia Pública General Menor de GNU en su lugar.) Tú también puedes aplicarla a tus programas.
+
+Cuando hablamos de software libre, nos referimos a libertad, no a precio. Nuestras Licencias Públicas Generales están diseñadas para asegurar que tú tengas la libertad de distribuir copias de software libre (y cobrar por este servicio si lo deseas), que recibas el código fuente o puedas obtenerlo si lo deseas, que puedas modificar el software o usar partes del mismo en nuevos programas libres; y que sepas que puedes hacer estas cosas.
+
+Para proteger tus derechos, necesitamos evitar que otros te nieguen estos derechos o te pidan que renuncies a ellos. Por lo tanto, tienes ciertas responsabilidades si distribuyes copias del software, o si lo modificas: responsabilidades para respetar la libertad de los demás.
+
+Por ejemplo, si distribuyes copias de tal programa, ya sea gratuitamente o por una tarifa, debes transmitir a los destinatarios las mismas libertades que tú recibiste. Debes asegurarte de que ellos también reciban o puedan obtener el código fuente. Y debes mostrarles estos términos para que conozcan sus derechos.
+
+Los desarrolladores que usan la Licencia Pública General de GNU protegen tus derechos con dos pasos: (1) afirman los derechos de autor sobre el software, y (2) te ofrecen esta Licencia dándote permiso legal para copiar, distribuir y/o modificarlo.
+
+Para la protección de los autores y del nuestro, la GPL establece claramente que no hay garantía para este software libre. Tanto para los usuarios como para los autores, queremos evitar el resultado de que el software libre sea apropiado en programas propietarios. Por lo tanto, la GPL requiere que todas las versiones modificadas y extendidas sean también libres.
+
+Además, la GPL protege los derechos de autor de los autores para que no se alegue falsamente que otros hicieron su trabajo.
+
+Finalmente, a cada programa libre se le adjunta constantemente nuestro manifiesto de "software libre". Esto nos informa sobre nuestras creencias en el software libre y el por qué es esencial para la sociedad.
+
+Términos y Condiciones para la Copia, Distribución y Modificación
+
+0. Esta Licencia se aplica a cualquier programa u otra obra que contenga una nota colocada por el titular de los derechos de autor diciendo que puede ser distribuida bajo los términos de esta Licencia Pública General. La "Obra", más adelante, se refiere a cualquier programa u obra de este tipo. Cada licenciatario es abordado como "tú". Los "licenciatarios" y "titulares de los derechos de autor" pueden ser individuos o organizaciones.
+
+Para "Modificar" una obra significa copiar o adaptar toda o una parte de la obra de una manera que requiera permiso de derechos de autor, aparte de hacer una copia exacta. La obra resultante se llama una "versión modificada" de la obra anterior o una obra basada en la obra anterior.
+
+Una "Obra Cubierta" significa la obra no modificada o una obra basada en la obra.
+
+Para "Propagar" una obra significa hacer cualquier cosa con ella que, sin permiso, te haría responsable por infracción de derechos de autor aplicable, excepto ejecutarla en una computadora o modificar una copia privada. La propagación incluye copiar, distribuir (con o sin modificación), hacer disponible al público, y en algunos países también otras actividades.
+
+Para "Transportar" una Obra significa cualquier tipo de propagación que permita a otras partes hacer o recibir copias. La mera interacción de un usuario con ella a través de una red de computadoras, sin transferencia de una copia, no es transportar.
+
+Una "Información Legal Apropiada" significa una nota que visiblemente y apropiadamente indica que la Obra está licenciada bajo esta Licencia Pública General y las condiciones bajo la cual se aplica la garantía (si la hay).
+
+Un "Código Fuente" de una obra significa la forma preferida de la obra para hacerle modificaciones. Un "Código Objeto" significa cualquier forma de la obra que no sea el Código Fuente.
+
+Una "Interfaz Estándar" significa una interfaz que es reconocida como un estándar oficial, ya sea publicada por un organismo de estándares reconocido, o, en el caso de interfaces específicas para un lenguaje de programación en particular, aquellas que son comúnmente usadas entre los desarrolladores que trabajan en ese lenguaje.
+
+Las "Fuentes del Sistema" de una obra ejecutable incluyen cualquier archivo fuente que sea necesario para compilar, instalar y ejecutar la obra, así como scripts, archivos de definición de interfaz, y las instrucciones de instalación de la obra. Una "Biblioteca del Sistema" de una obra ejecutable incluye cualquier biblioteca de software que (a) se incluya normalmente con el sistema operativo (o el compilador que normalmente se distribuye con él) en el cual la obra ejecutable se ejecuta, o (b) que solo es necesario para ejecutar la obra, pero no incluye obras que en sí mismas son Obras Cubiertas o trabajos derivados de ellas. Sin embargo, una "Biblioteca del Sistema" no incluye obras que violan esta Licencia.
+
+1. Puedes copiar y distribuir copias literales del código fuente de la Obra tal como lo recibiste, en cualquier medio, siempre que publiques de manera conspicua y apropiada en cada copia el aviso de derechos de autor apropiado; mantengas intactos todos los avisos que indiquen que esta Licencia y cualquier condición no permisiva agregada de acuerdo con la sección 7 se aplican al código; mantengas intactos todos los avisos de la ausencia de cualquier garantía; y proporciones a todos los destinatarios una copia de esta Licencia junto con la Obra.
+
+Puedes cobrar una tarifa por el acto físico de transportar una copia, y puedes ofrecer soporte de garantía a cambio de una tarifa.
+
+2. Puedes modificar tu copia o copias de la Obra o cualquier parte de ella, creando así una obra basada en la Obra, y propagar tales modificaciones o obra bajo los términos de la sección 1 anterior, siempre que también cumplas todas estas condiciones:
+
+    a) Debes hacer que los archivos modificados lleven avisos prominentes que indiquen que tú cambiaste los archivos y la fecha de cualquier cambio.
+    b) Debes hacer que cualquier obra que propagues o publiques, que en su totalidad o en parte contenga o derive de la Obra o cualquier parte de ella, se licencie como un todo bajo los términos de esta Licencia a todos sus licenciatarios.
+    c) Si la obra modificada normalmente lee comandos interactivamente cuando se ejecuta, debes hacer que, cuando comience a ejecutarse para tal uso interactivo de la manera más destacada y apropiada, imprima un aviso apropiado de Información Legal, incluyendo el aviso de derechos de autor apropiado para la obra y un aviso de que la obra se distribuye bajo esta Licencia (indicando que proporcionas la garantía bajo la sección 12), que el usuario puede ver los términos de esta Licencia en una copia proporcionada, y que no hay garantía para la obra, excepto según lo dispuesto. Si la obra tiene interfaces de usuario gráficas, estas deben mostrar un aviso legal apropiado de manera prominente.
+
+    d) Si la obra modifica las Interfaces Estándar al proporcionar soporte de interfaz para la interacción del usuario, en la medida en que haya: (i) avisos legales apropiados asociados con la interfaz, o (ii) documentación de uso para la interfaz que incluye avisos legales apropiados, debes hacer que estos avisos legales apropiados se muestren de manera prominente y apropiada de tal manera que informen a los usuarios sobre que la Interfaz Estándar ha sido modificada, especificando la excepción de la Interfaz Estándar original.
+
+Una obra derivada no está cubierta por esta Licencia meramente por estar unida (por ensamblaje o enlace) con una obra separada que no es por sí misma una obra derivada de la Obra.
+
+3. Puedes copiar y propagar una Obra Cubierta (o una obra basada en ella bajo la sección 2) en código objeto o forma ejecutable bajo los términos de las secciones 1 y 2 anteriores siempre que también transportes la información legible por máquina correspondiente del Código Fuente bajo los términos de esas secciones, de una de estas maneras:
+
+    a) Transportarlo en o junto con el código objeto (si el código objeto se incluye en un producto físico, transportarlo en un medio de almacenamiento físico duradero normalmente usado para intercambiar software).
+    b) Transportarlo a través de una red accesible al público, siempre que proporciones un acceso público gratuito y adecuado al Código Fuente correspondiente para que lo copien, que se copiará sin cargo, a través de al menos el mismo servidor que ofrece el código objeto o el ejecutable. Debes indicar claramente a los usuarios dónde se puede encontrar el Código Fuente correspondiente.
+    c) Transportarlo con la oferta escrita, válida por al menos tres años, para proporcionar a cualquier tercero, por no más que el costo de realizar físicamente el transporte del código fuente, una copia legible por máquina del Código Fuente correspondiente, para ser distribuido bajo los términos de las secciones 1 y 2 anteriores en un medio de almacenamiento físico duradero normalmente usado para intercambiar software.
+    d) Transportarlo como se especifica en la sección 4 a continuación si obtuviste el código objeto o la forma ejecutable en tal oferta.
+
+El Código Fuente correspondiente para una obra significa el código fuente para todos los módulos que contiene, más cualquier archivo de definición de interfaz asociado, más los scripts utilizados para controlar la compilación e instalación del ejecutable. Sin embargo, no incluye las Fuentes del Sistema de la Obra Cubierta.
+
+El Código Fuente correspondiente para una obra ejecutable en un Producto de Usuario, como una instalación de usuario de un Producto, no necesita incluir nada más que el Código Fuente de los componentes que están incorporados por diseño para funcionar en ese Producto de Usuario.
+
+Si la propagación del código objeto o la forma ejecutable se realiza ofreciendo acceso a copiar desde un servidor de red, entonces la provisión de acceso equivalente para copiar el código fuente desde el mismo lugar satisface el requisito de transportar el código fuente, incluso si terceros no están obligados a copiar el código fuente junto con el código objeto.
+
+4. Puedes transportar una Obra Cubierta copiándola o modificándola para que tenga la forma de código objeto, solo si también proporcionas, bajo los términos de esta Licencia, el Código Fuente correspondiente completo legible por máquina junto con ella, transportado en o junto con el código objeto.
+
+5. Una obra derivada no está cubierta por esta Licencia meramente por estar unida (por ensamblaje o enlace) con una obra separada que no es por sí misma una obra derivada de la Obra.
+
+Si la Obra Cubierta consiste en código de aplicación destinado a ser combinado con bibliotecas que están especificadas por separado como no cubiertas por esta Licencia, y si combinas dicho código con dicha biblioteca enlazándolo o ensamblándolo, o los invocas de otra manera, entonces los módulos de código que son combinados de esta manera no se convierten en Obras Cubiertas por esta Licencia si permanecen separados de dicha combinación.
+
+Debes proporcionar una Información Legal Apropiada con cada copia de la Obra Cubierta y dentro de ella. Para la información de la garantía bajo la sección 12, la información debe aparecer en o cerca de cada copia de la Obra Cubierta.
+
+6. Puedes transportar una Obra Cubierta siempre que el destinatario reciba una copia de esta Licencia junto con ella y todos los avisos de derechos de autor apropiados. No puedes imponer ninguna condición adicional sobre el ejercicio de los derechos otorgados o afirmados bajo esta Licencia. No puedes prohibir o restringir de otra manera la copia, modificación o propagación de una Obra Cubierta.
+
+7. Puedes transportar una obra cubierta que hayas modificado o con respecto a la cual hayas propagado una obra basada en la Obra, siempre que también cumplas todas estas condiciones:
+
+    a) Debes hacer que la obra modificada lleve avisos prominentes que indiquen que tú cambiaste la obra y la fecha de cualquier cambio.
+    b) Debes hacer que cualquier obra que propagues o publiques, que en su totalidad o en parte contenga o derive de la Obra o cualquier parte de ella, se licencie como un todo bajo los términos de esta Licencia a todos sus licenciatarios.
+    c) Debes mantener intactos todos los avisos que indiquen que esta Licencia y cualquier condición no permisiva agregada de acuerdo con la sección 7 se aplican al código; mantengas intactos todos los avisos de la ausencia de cualquier garantía; y proporciones a todos los destinatarios una copia de esta Licencia junto con la Obra.
+
+    d) Si la obra modificada normalmente lee comandos interactivamente cuando se ejecuta, debes hacer que, cuando comience a ejecutarse para tal uso interactivo de la manera más destacada y apropiada, imprima un aviso apropiado de Información Legal, incluyendo el aviso de derechos de autor apropiado para la obra y un aviso de que la obra se distribuye bajo esta Licencia (indicando que proporcionas la garantía bajo la sección 12), que el usuario puede ver los términos de esta Licencia en una copia proporcionada, y que no hay garantía para la obra, excepto según lo dispuesto. Si la obra tiene interfaces de usuario gráficas, estas deben mostrar un aviso legal apropiado de manera prominente.
+
+Una obra derivada no está cubierta por esta Licencia meramente por estar unida (por ensamblaje o enlace) con una obra separada que no es por sí misma una obra derivada de la Obra.
+
+8. Puedes transportar una Obra Cubierta copiándola o modificándola para que tenga la forma de código objeto, solo si también proporcionas, bajo los términos de esta Licencia, el Código Fuente correspondiente completo legible por máquina junto con ella, transportado en o junto con el código objeto.
+
+9. Puedes transportar una Obra Cubierta copiándola o modificándola para que tenga la forma de código objeto, solo si también proporcionas, bajo los términos de esta Licencia, el Código Fuente correspondiente completo legible por máquina junto con ella, transportado en o junto con el código objeto.
+
+10. Puedes transportar una Obra Cubierta copiándola o modificándola para que tenga la forma de código objeto, solo si también proporcionas, bajo los términos de esta Licencia, el Código Fuente correspondiente completo legible por máquina junto con ella, transportado en o junto con el código objeto.
+
+11. EXCLUSIÓN DE GARANTÍA LIMITADA.
+
+A MENOS QUE SE ESTABLEZCA LO CONTRARIO POR ESCRITO, NO HAY GARANTÍA PARA LA OBRA, EN LA MEDIDA PERMITIDA POR LA LEY APLICABLE. EXCEPTO CUANDO SE INDIQUE LO CONTRARIO POR ESCRITO, LOS TITULARES DEL COPYRIGHT Y/O OTRAS PARTES PROPORCIONAN LA OBRA "TAL CUAL" SIN GARANTÍA DE NINGÚN TIPO, YA SEA EXPRESA O IMPLÍCITA, INCLUYENDO, PERO NO LIMITADO A, LAS GARANTÍAS IMPLÍCITAS DE COMERCIABILIDAD E IDONEIDAD PARA UN PROPÓSITO PARTICULAR. TODO EL RIESGO EN CUANTO A LA CALIDAD Y EL RENDIMIENTO DE LA OBRA CORRE POR TU CUENTA. SI LA OBRA RESULTA DEFECTUOSA, ASUMES EL COSTO DE TODO SERVICIO, REPARACIÓN O CORRECCIÓN NECESARIOS.
+
+12. LIMITACIÓN DE RESPONSABILIDAD.
+
+EN NINGÚN CASO, A MENOS QUE LO REQUIERA LA LEY APLICABLE O SE ACUERDE POR ESCRITO, NINGÚN TITULAR DEL COPYRIGHT, O CUALQUIER OTRA PARTE QUE PUEDA MODIFICAR Y/O TRANSPORTAR LA OBRA COMO SE PERMITE A CONTINUACIÓN, SERÁ RESPONSABLE ANTE TI POR DAÑOS, INCLUYENDO CUALQUIER DAÑO GENERAL, ESPECIAL, INCIDENTAL O CONSECUENTE QUE SURJA DEL USO O LA INCAPACIDAD DE USAR LA OBRA (INCLUYENDO PERO NO LIMITADO A LA PÉRDIDA DE DATOS O LA PÉRDIDA DE DATOS QUE HAN SIDO RENDERIZADOS INEXACTOS O LAS PÉRDIDAS SUFRIDAS POR TI O POR TERCEROS O UN FALLO DE LA OBRA PARA OPERAR CON CUALQUIER OTRO PROGRAMA), INCLUSO SI DICHO TITULAR O OTRA PARTE HA SIDO ADVERTIDO DE LA POSIBILIDAD DE TALES DAÑOS.
+
+13. INTERPRETACIÓN DE LAS SECCIONES 11 Y 12.
+
+Si la exclusión de garantía y la limitación de responsabilidad proporcionadas anteriormente no pueden tener efecto legal local de acuerdo con sus términos, los tribunales revisores aplicarán la ley local que más se asemeje a una renuncia absoluta de toda responsabilidad civil en relación con la Obra, a menos que una garantía o asunción de responsabilidad acompañe una copia de la Obra a cambio de una tarifa.
+
+FIN DE LOS TÉRMINOS Y CONDICIONES
+
+Copyright (C) 2025 Mkttns Generador de Sitios Estáticos
