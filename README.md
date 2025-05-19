@@ -43,4 +43,4 @@ Apoya el proyecto con Monero:
 42Ec5nSjmTAS54VnwcWwKCcwvu81ofUxg5DsnWKppgUHEf5AXCPMkZFirAnJoufnF4i71LCkQzePLDRWjj9W6JsxC2y1LBF
 
 ## Licencia
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+Este proyecto está licenciado bajo la Licencia GPL. Consulta el archivo `LICENSE` para más detalles.
