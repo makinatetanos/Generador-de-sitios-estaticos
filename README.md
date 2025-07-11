@@ -14,7 +14,7 @@ Este proyecto es un generador de sitios web estáticos escrito en Python. Permit
 ## Instalación
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/generador-sitios-estaticos.git
+   git clone https://github.com/makinatetanos/generador-sitios-estaticos.git
    cd generador-sitios-estaticos
    ```
 2. Crea un entorno virtual y actívalo:
