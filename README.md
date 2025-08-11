@@ -40,7 +40,7 @@ Este proyecto es un generador de sitios web estáticos escrito en Python. Permit
 ¡Las contribuciones son bienvenidas! Por favor, abre un issue o envía un pull request.
 
 Apoya el proyecto con Monero:
-42Ec5nSjmTAS54VnwcWwKCcwvu81ofUxg5DsnWKppgUHEf5AXCPMkZFirAnJoufnF4i71LCkQzePLDRWjj9W6JsxC2y1LBF
+48BkZ4ooHyGUq6mB7DDbRRjhgywjKtCVb3mfA47THv3teJy46knoSHdLRxG6Fq1y2e7h3zX6xkm66JSvneqNvSmD35FwCc5
 
 ## Licencia
 Este proyecto está licenciado bajo la Licencia GPL. Consulta el archivo `LICENSE` para más detalles.
