@@ -1,7 +1,10 @@
 import os
 import shutil
 import markdown
+from flask import Flask
 from jinja2 import Environment, FileSystemLoader
+
+app = Flask(__name__)
 
 # Configuración inicial
 def main():
@@ -23,11 +26,12 @@ def copy_static_files(src, dest):
 
 def generate_site():
     # Crear carpeta de salida si no existe
-    os.makedirs('dist', exist_ok=True)
-    os.makedirs('dist/static', exist_ok=True)
+    output_dir = 'dist'
+    os.makedirs(output_dir, exist_ok=True)
+    os.makedirs(os.path.join(output_dir, 'static'), exist_ok=True)
 
     # Copiar archivos estáticos
-    copy_static_files('static', 'dist/static')
+    copy_static_files('static', os.path.join(output_dir, 'static'))
 
     # Leer contenido Markdown
     content_path = 'content'
@@ -41,10 +45,19 @@ def generate_site():
 
             # Renderizar plantilla
             context = {'content': html_content}
-            output_file = os.path.join('dist', filename.replace('.md', '.html'))
-            render_template('base.html', context, output_file)
+            output_file = os.path.join(output_dir, filename.replace('.md', '.html'))
+            render_template('index.html', context, output_file)
 
-    print("Sitio generado en la carpeta 'dist'.")
+    print(f"Sitio generado en la carpeta '{output_dir}'.")
+
+@app.route('/')
+def home():
+    return app.send_static_file('index.html')
+
+@app.route('/<path:path>')
+def serve_static(path):
+    return app.send_static_file(path)
 
 if __name__ == "__main__":
     main()
+    app.run(debug=True)
