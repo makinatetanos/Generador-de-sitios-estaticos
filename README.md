@@ -9,7 +9,7 @@ Este proyecto es un generador de sitios web estáticos escrito en Python. Permit
 
 ## Requisitos
 - Python 3.7 o superior.
-- Bibliotecas: `Jinja2`, `Markdown`.
+- Bibliotecas: `Jinja2`, `Markdown`, `shtil`, `os`.
 
 ## Instalación
 1. Clona este repositorio:
