@@ -5,7 +5,7 @@ Este proyecto es un generador de sitios web estáticos escrito en Python. Permit
 ## Características
 - Convierte archivos Markdown en HTML.
 - Utiliza plantillas HTML con Jinja2.
-- Genera un sitio completo en la carpeta `dist`.
+- Genera un sitio completo en la carpeta dist.
 
 ## Requisitos
 - Python 3.7 o superior.
