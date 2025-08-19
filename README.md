@@ -4,12 +4,12 @@ Este proyecto es un generador de sitios web estáticos escrito en Python. Permit
 
 ## Características
 - Convierte archivos Markdown en HTML.
-- Utiliza plantillas HTML con Jinja2.
+- Utiliza plantillas HTML con Flask y Jinja2.
 - Genera un sitio completo en la carpeta dist.
 
 ## Requisitos
 - Python 3.7 o superior.
-- Bibliotecas: `Jinja2`, `Markdown`, `flask`.
+- Bibliotecas: `Jinja2`, `Markdown`, `flask`, `setuptools`.
 
 ## Instalación
 1. Clona este repositorio:
@@ -39,8 +39,7 @@ Este proyecto es un generador de sitios web estáticos escrito en Python. Permit
 ## Contribuciones
 ¡Las contribuciones son bienvenidas! Por favor, abre un issue o envía un pull request.
 
-Apoya el proyecto con Monero:
-48BkZ4ooHyGUq6mB7DDbRRjhgywjKtCVb3mfA47THv3teJy46knoSHdLRxG6Fq1y2e7h3zX6xkm66JSvneqNvSmD35FwCc5
+[Puedes invitarme a un Café](https://donate.stripe.com/aFa4gr8a43LReAx0p7bbG03)
 
 ## Licencia
 Este proyecto está licenciado bajo la Licencia GPL. Consulta el archivo `LICENSE` para más detalles.
